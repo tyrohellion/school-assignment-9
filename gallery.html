@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <nav>
+        <div class="hamburger">☰</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="article.html">Article</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <script defer src="script.js"></script>
 </head>
 <body>
-    <main class="photo-gallery">
-        <div class="photo"><img src="images/photo1.jpg" alt="Picture from one of Minecraft's trailers"></div>
-        <div class="photo"><img src="images/photo2.jpg" alt="Lethal Company"></div>
-    </main>
-    <div class="gallery-controls">
-        <button id="prev">Previous</button>
-        <button id="next">Next</button>
-    </div>
+    <div class="gallery">
+        <img src="images/image1.jpg" id="gallery-image" alt="Gallery Image">
+        <div class="controls">
+          <button id="prev-btn">Previous</button>
+          <button id="next-btn">Next</button>
+        </div>
+      </div>
+      <script src="script.js"></script>
 </body>
-</head>
 </html>
