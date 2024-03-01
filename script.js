@@ -4,7 +4,7 @@ document.querySelector('.hamburger').addEventListener('click',function() {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    const images = ['images/image1.jpg', 'images/image2.jpg'];
+    const images = ['images/image1.jpg', 'images/image2.jpg', 'images/image3.jpg'];
     let currentIndex = 0;
     const imageElement = document.getElementById('gallery-image');
     const prevButton = document.getElementById('prev-btn');
